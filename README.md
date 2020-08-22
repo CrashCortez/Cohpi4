@@ -64,6 +64,7 @@ sudo chmod a+x penguinrocks
 
 then run with 
 ----
+```
 cd /home/pi/Desktop/coh
 ./penguinrocks.pl
-
+```
