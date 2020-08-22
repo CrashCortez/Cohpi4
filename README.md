@@ -59,9 +59,11 @@ cd
 cd /home/pi/Desktop/coh
 wget https://github.com/CrashCortez/penguinrocks/blob/master/penguinrocks.pl
 wget https://github.com/CrashCortez/penguinrocks/archive/v0.9.1.zip
+sudo chmod a+x penguinrocks
 ```
 
 then run with 
 ----
-
+cd /home/pi/Desktop/coh
+./penguinrocks.pl
 
