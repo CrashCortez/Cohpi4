@@ -68,3 +68,7 @@ then run with
 cd /home/pi/Desktop/coh
 ./penguinrocks.pl
 ```
+you can also use aguments aswell e.g.
+```
+./penguinrocks.pl --silentlaunch --launchonly
+```
