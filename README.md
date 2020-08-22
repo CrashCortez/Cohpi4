@@ -45,20 +45,23 @@ sudo cpanm File::Copy
 sudo cpanm File::Path
 sudo cpanm Getopt::Long
 sudo cpanm XML::Simple
+```
+or
+--
 
+```
+sudo apt-get update && sudo apt-get -y upgrade
+sudo apt-get install -y perl curl wget
+sudo apt-get install -y libdigest-perl-md5-perl libxml-simple-perl libgetopt-long-descriptive-perl
+```
+```
 cd
 cd /home/pi/Desktop/coh
 wget https://github.com/CrashCortez/penguinrocks/blob/master/penguinrocks.pl
 wget https://github.com/CrashCortez/penguinrocks/archive/v0.9.1.zip
 ```
 
-sudo cpanm <Insert-module-name here>
+then run with 
+----
 
 
-sudo cpanm Digest::MD5
-sudo cpanm File::Copy
-sudo cpanm File::Path
-sudo cpanm Getopt::Long
-sudo cpanm XML::Simple
-
-https://ostechnix.com/how-to-install-perl-modules-on-linux/
