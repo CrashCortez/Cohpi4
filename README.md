@@ -26,13 +26,13 @@ ___
 
 https://github.com/CrashCortez/penguinrocks
 
-Perl 5 
-Perl modules:
-Digest::MD5
-File::Copy and File::Path
-Getopt::Long
-XML::Simple
-wget or curl
+ - Perl 5 *(I have no clue if it'll run with Perl 6 or not)*
+ - Perl modules:
+   - Digest::MD5
+   - File::Copy and File::Path
+   - Getopt::Long
+   - XML::Simple
+ - wget or curl
 
 ```
 sudo apt-get update && sudo apt-get -y upgrade
