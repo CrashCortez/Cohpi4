@@ -55,6 +55,7 @@ or
 sudo apt-get update && sudo apt-get -y upgrade
 sudo apt-get install -y perl curl wget
 sudo apt-get install -y libdigest-perl-md5-perl libxml-simple-perl libgetopt-long-descriptive-perl
+winetricks d3dx9 dinput dotnet45
 ```
 ```
 cd
@@ -68,7 +69,7 @@ then run with
 ----
 ```
 cd /home/pi/Desktop/coh
-./penguinrocks.pl
+./penguinrocks.pl --profile 1
 ```
 you can also use aguments aswell e.g.
 ```
