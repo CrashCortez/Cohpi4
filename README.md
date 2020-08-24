@@ -70,6 +70,7 @@ sudo chown pi:pi /home/pi/Games/coh
 Let’s run it. Profile 1 is the 32 bit client. You can click on the new updatecoh icon on the desktop.
 ```
 cd /home/pi/Games/coh
+sudo chmod a+x *.sh
 ./penguinrocks.pl --profile 1
 ```
 Let it error. The error is that it can’t find hc-bin32cityofheroes.exe in the program files. But it did install/update all the files from the homecoming servers. So we need to move the 32 bit cityofheroes.exe so penguinrocks will launch it. What I did was go to /home/pi/Games/coh/hc-bin32/ and made a copy of the cityofheroes.exe. Pasted it there and renamed it to hc-bin32cityofheroes.exe. Then I made a copy of that and pasted it in the main coh too just in case. Go to /home/pi/Games/coh and paste your copy. For updates I made a script to handle this in the future. With a desktop icon as well. 
