@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 cd
 winetricks videomemorysize=2048
 winetricks d3dx9 dinput dinput8 dotnet45
@@ -14,6 +14,7 @@ cp -R penguinrocks /home/pi/Games/coh
 sudo chown pi:pi /home/pi/Games/coh
 cd
 cd /home/pi/Games/coh
+sudo chomd a+x *.sh
 LD_LIBRARY_PATH=/home/pi/mesa/lib/arm-linux-gnueabihf ./penguinrocks.pl --profile 1 --verify --patchonly 
 cd hc-bin32
 cp cityofheroes.exe /home/pi/Games/coh/hc-bin32cityofheroes.exe
