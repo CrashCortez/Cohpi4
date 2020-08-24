@@ -6,7 +6,7 @@ Instructions to install City of Heroes on pi4 Twister Os
 You can download the torrent first, saves having to download later. Or penguinrocks will do it for you. 
 
 ## Automated installer WIP 
-———
+
 First on the pi youll need to set some stuff up 
 
 Use commander pi to oc your pi to the recommend setting of
@@ -17,14 +17,14 @@ Use commander pi to oc your pi to the recommend setting of
 
 Set wine to run as win10 in wine config
 
+The following should install and autoset everything up.
 ```
-winetricks videomemorysize=2048
-winetricks d3dx9 dinput dinput8 dotnet45
+wget https://raw.githubusercontent.com/CrashCortez/Cohpi4/master/install.sh && sudo chmod a+x install.sh && ./install.sh
 ```
 
 
 ## Manual install 
-——-
+
 Let’s set up Some wineTricks and get some dependancies for penguin on the rocks. 
 ```
 winetricks videomemorysize=2048
