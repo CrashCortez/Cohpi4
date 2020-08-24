@@ -1,7 +1,7 @@
 # Cohpi4
 Instructions to install City of Heroes on pi4 Twister Os
 
-https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733 (I downloaded the torrent first, saves having to download later)
+https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733 You can download the torrent first, saves having to download later. Or penguinrocks will do it for you. 
 
 ~~So far, I've been able to run Tequila.exe on a clean win32 Wine bottle with dotnet35 installed. The game patches and launches fine, but I couldn't test gameplay as the auth server is currently down. I can say, CoH in its final days played pretty well, so there's hope.~~
 
