@@ -90,3 +90,7 @@ Set wine to run as win10 in wine config
 Set up Zram if you want. 
 https://github.com/novaspirit/rpi_zram
 ```
+
+| [YouTube](https://www.youtube.com/channel/UCwnTzGTRsNpen-2Nz38yGAQ) | [Facebook](https://www.facebook.com/crash.cortez.75) | [Twitter](https://twitter.com/CrashGaming14) |
+| --- | --- | --- |
+
