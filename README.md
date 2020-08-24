@@ -1,4 +1,10 @@
 # Cohpi4
+Internets: COH will never play on the pi4
+Crash: Hold my beer!
+
+First i want to talk about if this is a good way to play COH, the anser is not really. Tou will be plauged with DC's and long loading times, and forget about being in AP. This is more of a proff of concept.
+
+-----
 Instructions to install City of Heroes on the pi4 with [Twister Os](https://twisteros.com/)'s current release.
 
 [Homecoming PC install instructions](https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733)
