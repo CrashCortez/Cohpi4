@@ -1,43 +1,25 @@
 !#/bin/bash
-echo "--------------------------------"
-echo "City of Heroes on the Pi4b"
-echo "--------------------------------"
-wait 5
-clear
-
-echo "--------------------------------"
-echo "Updates and installing Dependancies"
-echo "--------------------------------"
-wait 5
-sudo apt-get update && sudo apt-get -y upgrade
+cd
+winetricks videomemorysize=2048
+winetricks d3dx9 dinput dinput8 dotnet45
 sudo apt-get install -y perl curl wget
 sudo apt-get install -y libdigest-perl-md5-perl libxml-simple-perl libgetopt-long-descriptive-perl
-
-clear
-wait 5
-echo "--------------------------------"
-echo "Checking for/Setting up CoH folder on desktop and downloding penguinrocks"
-echo "--------------------------------"
-
+git clone https://github.com/CrashCortez/penguinrocks
 cd
-if [ -d "/home/pi/Desktop/coh" ] 
-then
-    echo "Directory /home/pi/Desktop/coh exists, moving on." 
-else
-    echo "Error: Directory /path/to/dir does not exists, creating it now."
-    sudo mkdir /home/pi/Desktop/coh
-fi
-sudo chown pi:pi /home/pi/Desktop/coh
-cd /home/pi/Desktop/coh
-wget https://raw.githubusercontent.com/CrashCortez/penguinrocks/blob/master/penguinrocks.pl
-sudo chmod a+x penguinrocks.pl
-sudo chown pi:pi penguinrocks.pl
-
-clear
-echo "--------------------------------"
-echo "Launching penguinrocks"
-echo "--------------------------------"
-wait 5
+cd penguinrocks
+cp coh.desktop /home/pi/Desktop
+cp updatecoh.desktop /home/pi/Desktop
 cd
-cd /home/pi/Desktop/coh
-./penguinrocks.pl
+cp -R penguinrocks /home/pi/Games/coh 
+sudo chown pi:pi /home/pi/Games/coh
+cd
+cd /home/pi/Games/coh
+LD_LIBRARY_PATH=/home/pi/mesa/lib/arm-linux-gnueabihf ./penguinrocks.pl --profile 1 --verify --patchonly 
+cd hc-bin32
+cp cityofheroes.exe /home/pi/Games/coh/hc-bin32cityofheroes.exe
+cd /home/pi/Games/coh/hc-bin32
+cp cityofheroes.exe hc-bin32cityofheroes.exe
+cp hc-bin32cityofheroes.exe /home/pi/Games/coh
+cd
+cd /home/pi/Games/coh
+LD_LIBRARY_PATH=/home/pi/mesa/lib/arm-linux-gnueabihf ./penguinrocks.pl --profile 1 --launchonly --silentlaunch
