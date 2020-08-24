@@ -1,7 +1,10 @@
 # Cohpi4
-Internets: COH will never play on the pi4
-Crash: Hold my beer!
+The Internets said "COH will never play on the pi4!"
 
+Crash said "Hold my beer!"
+
+
+---
 First i want to talk about if this is a good way to play COH, the anser is not really. Tou will be plauged with DC's and long loading times, and forget about being in AP. This is more of a proff of concept.
 
 -----
