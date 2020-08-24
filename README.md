@@ -5,7 +5,7 @@ Crash said "Hold my beer!"
 
 
 ---
-First i want to talk about if this is a good way to play COH, the anser is not really. Tou will be plauged with DC's and long loading times, and forget about being in AP. This is more of a proff of concept.
+First i want to talk about if this is a good way to play COH, the answer is not really. Tou will be plauged with DC's and long loading times, and forget about being in AP. This is more of a proff of concept.
 
 -----
 Instructions to install City of Heroes on the pi4 with [Twister Os](https://twisteros.com/)'s current release.
