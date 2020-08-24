@@ -12,7 +12,9 @@ First on the pi youll need to set some stuff up
 Use commander pi to oc your pi to the recommend setting of
 
 2000
+
 600
+
 6
 
 Set wine to run as win10 in wine config
