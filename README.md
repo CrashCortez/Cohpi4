@@ -1,7 +1,7 @@
 # Cohpi4
-Instructions to install City of Heroes on pi4 Twister Os
+Instructions to install City of Heroes on the pi4 with [Twister Os](https://twisteros.com/)'s current build.
 
-[Homecoming install instructions](https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733)
+[Homecoming PC install instructions](https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733)
 
 You can download the torrent first, saves having to download later. Or penguinrocks will do it for you. 
 
