@@ -13,7 +13,7 @@ sudo chmod a+x updatecoh.desktop
 cp coh.desktop /home/pi/Desktop
 cp updatecoh.desktop /home/pi/Desktop
 cd
-cp -R penguinrocks /home/pi/Games/coh 
+sudo cp -R /home/pi/penguinrocks /home/pi/Games/coh 
 sudo chown pi:pi /home/pi/Games/coh
 cd
 cd /home/pi/Games/coh
