@@ -17,10 +17,10 @@ Note penguinrocks will do it for you.
 
 ## Automated installer WIP 
 
-
+Download [Twister Os](https://twisteros.com/)'s current release, and set up you sd card.
 
 First on the pi you'll need to set some stuff up use commander pi to oc your pi to the recommend setting of
---
+
 2000 CPU (arm_frew)
 
 600 GPU (gpu_freq0
@@ -28,13 +28,18 @@ First on the pi you'll need to set some stuff up use commander pi to oc your pi 
 6 Volt adj. (over_voltage)
 
 Click all three set checks and apply and reboot.
---
+
+## Automated installer 
 
 Copy and paste he following into your terminal and it will autoset everything up for you should take 25-35 minutes depending on your internet speeds.
 ```
 wget https://raw.githubusercontent.com/CrashCortez/Cohpi4/master/install.sh && sudo chmod a+x install.sh && ./install.sh
 ```
+After it is done downloading and setting it up you will can now log in. 
+## You're Done, Go Hunt skulls!
 
+
+---
 
 ## Manual install 
 
