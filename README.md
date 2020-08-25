@@ -6,15 +6,15 @@ Crash said "Hold my beer!"
 [Coh test video](https://youtu.be/G2BuxxW0Z2o)
 ---
 First I want to talk about if this is a good way to play COH, the answer is No not really. You will be plauged with DC's and long loading times, and forget about being in AP. This is more of a proof of concept.
---
+
 
 
 Instructions to install City of Heroes on the pi4 with [Twister Os](https://twisteros.com/)'s current release.
---
+
 [Homecoming PC install instructions](https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733)
---
+
 Note penguinrocks will do it for you. 
---
+
 ## Automated installer WIP 
 
 
