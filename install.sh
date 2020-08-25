@@ -14,7 +14,7 @@ cp coh.desktop /home/pi/Desktop
 cp updatecoh.desktop /home/pi/Desktop
 cd
 sudo cp -R /home/pi/penguinrocks /home/pi/Games/coh 
-sudo chown pi:pi /home/pi/Games/coh
+sudo chown pi:pi -R /home/pi/Games/coh
 cd
 cd /home/pi/Games/coh
 LD_LIBRARY_PATH=/home/pi/mesa/lib/arm-linux-gnueabihf ./penguinrocks.pl --profile 1 --verify --patchonly 
