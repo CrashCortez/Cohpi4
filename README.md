@@ -57,10 +57,15 @@ git clone https://github.com/CrashCortez/penguinrocks
 ```
 *If you use my git clone you get some extras just for this.
 
-Now Let’s move on, let’s move some stuff around to the games folder and Desktop.
+Now Let’s move on, let’s give ourselves premmisions and move some stuff around to the games folder and Desktop.
 ```
 cd
+sudo chown -R pi:pi penguinrocks
 cd penguinrocks
+sudo chmod a+x launchcoh.sh
+sudo chmod a+x updatecoh.sh
+sudo chmod a+x coh.desktop
+sudo chmod a+x updatecoh.desktop
 cp coh.desktop /home/pi/Desktop
 cp updatecoh.desktop /home/pi/Desktop
 cd
