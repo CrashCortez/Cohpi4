@@ -17,14 +17,15 @@ You can download the torrent first, saves having to download later. Or penguinro
 ## Automated installer WIP 
 
 First on the pi you'll need to set some stuff up use commander pi to oc your pi to the recommend setting of
-
+--
 2000 CPU (arm_frew)
 
 600 GPU (gpu_freq0
 
 6 Volt adj. (over_voltage)
 
-click all three set checks and apply and reboot.
+Click all three set checks and apply and reboot.
+--
 
 ---
 
@@ -37,27 +38,27 @@ wget https://raw.githubusercontent.com/CrashCortez/Cohpi4/master/install.sh && s
 ## Manual install 
 
 Let’s set up Some wineTricks and get some dependancies for penguin on the rocks. 
+--
 ```
 winetricks videomemorysize=2048
 winetricks d3dx9 dinput dinput8 dotnet45
 ```
 Let’s Get penguin on the rocks since I could not get Tequila working. 
+
 Perl dependancies needed for penguinrocks
+--
 ```
 sudo apt-get install -y perl curl wget
 sudo apt-get install -y libdigest-perl-md5-perl libxml-simple-perl libgetopt-long-descriptive-perl
 ```
-Here is WarpShots [Reddit post](https://www.google.com/amp/s/amp.reddit.com/r/Cityofheroes/comments/bip4e2/new_linux_commandline_launcher_penguin_on_the/)
-```
-git clone https://github.com/WarpshotCoH/penguinrocks
-```
-I forked the working GitHub since v0.9.1 worked. If warpshots doesn’t work use this.
+Here is WarpShots [Reddit post](https://www.google.com/amp/s/amp.reddit.com/r/Cityofheroes/comments/bip4e2/new_linux_commandline_launcher_penguin_on_the/) I forked the working GitHub since v0.9.1 worked,and addjuted it for the box86/wine on the Twister OS.
+--
 ```
 git clone https://github.com/CrashCortez/penguinrocks
 ```
-*If you use my git clone you get some extras just for this.
 
 Now Let’s move on, let’s give ourselves premmisions and move some stuff around to the games folder and Desktop.
+--
 ```
 cd
 sudo chown -R pi:pi penguinrocks
@@ -73,6 +74,7 @@ sudo cp -R /home/pi/penguinrocks /home/pi/Games/coh
 sudo chown pi:pi /home/pi/Games/coh
 ```
 Let’s run it. Profile 1 is the 32 bit client. You can click on the new updatecoh icon on the desktop.
+--
 ```
 cd /home/pi/Games/coh
 sudo chmod a+x *.sh
@@ -87,9 +89,10 @@ cd
 ```
 
 Now run In terminal the following or click the City of Heros icon on the desktop
+--
 ```
 cd /home/pi/Games/coh
-LD_LIBRARY_PATH=/home/pi/mesa/lib/arm-linux-gnueabihf ./penguinrocks.pl --profile 1 --launchonly --silentlaunch 
+./penguinrocks.pl --profile 1 --launchonly --silentlaunch 
 ```
 
 Additional settings 
