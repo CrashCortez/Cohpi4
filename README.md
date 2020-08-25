@@ -7,7 +7,8 @@ Crash said "Hold my beer!"
 ---
 First I want to talk about if this is a good way to play COH, the answer is No not really. You will be plauged with DC's and long loading times, and forget about being in AP. This is more of a proof of concept.
 --
------
+
+
 Instructions to install City of Heroes on the pi4 with [Twister Os](https://twisteros.com/)'s current release.
 --
 [Homecoming PC install instructions](https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733)
@@ -15,6 +16,8 @@ Instructions to install City of Heroes on the pi4 with [Twister Os](https://twis
 Note penguinrocks will do it for you. 
 --
 ## Automated installer WIP 
+
+
 
 First on the pi you'll need to set some stuff up use commander pi to oc your pi to the recommend setting of
 --
@@ -27,9 +30,7 @@ First on the pi you'll need to set some stuff up use commander pi to oc your pi 
 Click all three set checks and apply and reboot.
 --
 
----
-
-The following should install and autoset everything up.
+Copy and paste he following into your terminal and it will autoset everything up for you should take 25-35 minutes depending on your internet speeds.
 ```
 wget https://raw.githubusercontent.com/CrashCortez/Cohpi4/master/install.sh && sudo chmod a+x install.sh && ./install.sh
 ```
@@ -44,15 +45,17 @@ winetricks videomemorysize=2048
 winetricks d3dx9 dinput dinput8 dotnet45
 ```
 Let’s Get penguin on the rocks since I could not get Tequila working. 
+--
 
 Perl dependancies needed for penguinrocks
---
+
 ```
 sudo apt-get install -y perl curl wget
 sudo apt-get install -y libdigest-perl-md5-perl libxml-simple-perl libgetopt-long-descriptive-perl
 ```
-Here is WarpShots [Reddit post](https://www.google.com/amp/s/amp.reddit.com/r/Cityofheroes/comments/bip4e2/new_linux_commandline_launcher_penguin_on_the/) I forked the working GitHub since v0.9.1 worked,and addjuted it for the box86/wine on the Twister OS.
+Here is WarpShots [Reddit post](https://www.google.com/amp/s/amp.reddit.com/r/Cityofheroes/comments/bip4e2/new_linux_commandline_launcher_penguin_on_the/) I forked the working GitHub since v0.9.1 worked, and adjusted it for the box86/wine on the Twister OS.
 --
+We will use my fork since itts been adjusted for Twister OS.
 ```
 git clone https://github.com/CrashCortez/penguinrocks
 ```
@@ -93,6 +96,24 @@ Now run In terminal the following or click the City of Heros icon on the desktop
 ```
 cd /home/pi/Games/coh
 ./penguinrocks.pl --profile 1 --launchonly --silentlaunch 
+```
+To update
+```
+cd /home/pi/Games/coh
+./penguinrocks.pl --profile 1 --verify --patchonly
+```
+Penguinrocks usage a arguments
+```
+Usage: penguinrocks.pl [--patchonly|--launchonly] [--verify] [--silentlaunch] [--silent] [--manifest=<URL of update manifest>] [City of Heroes options].
+
+--silentlaunch: Suppress all console output from City of Heroes.
+        This may improve stability or give a slight increase in framerate.
+        For most people, I expect it will do nothing.
+--silent: Suppress all output except error messages.
+--patchonly: Only patch the City of Heroes client, do not launch it.
+--launchonly: Only launch the City of Heroes client, do not patch it.
+--verify: Verify the checksums of the client files.
+--manifest: Specify an alternate manifest location.
 ```
 
 Additional settings 
