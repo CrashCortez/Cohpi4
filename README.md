@@ -16,17 +16,17 @@ You can download the torrent first, saves having to download later. Or penguinro
 
 ## Automated installer WIP 
 
-First on the pi youll need to set some stuff up 
+First on the pi you'll need to set some stuff up use commander pi to oc your pi to the recommend setting of
 
-Use commander pi to oc your pi to the recommend setting of
+2000 CPU (arm_frew)
 
-2000
+600 GPU (gpu_freq0
 
-600
+6 Volt adj. (over_voltage)
 
-6
+click all three set checks and apply and reboot.
 
-Set wine to run as win10 in wine config
+---
 
 The following should install and autoset everything up.
 ```
@@ -93,14 +93,18 @@ LD_LIBRARY_PATH=/home/pi/mesa/lib/arm-linux-gnueabihf ./penguinrocks.pl --profil
 ```
 
 Additional settings 
+--
 
-Use commander pi to oc your pi to the recommend setting of
+you'll need to set some stuff up use commander pi to oc your pi to the recommend setting of
 
-2000
-600
-6
+2000 CPU (arm_frew)
 
-Set wine to run as win10 in wine config
+600 GPU (gpu_freq0
+
+6 Volt adj. (over_voltage)
+
+click all three set checks and apply and reboot.
+
 
 ## Optional
 --
