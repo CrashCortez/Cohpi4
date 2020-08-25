@@ -69,7 +69,7 @@ sudo chmod a+x updatecoh.desktop
 cp coh.desktop /home/pi/Desktop
 cp updatecoh.desktop /home/pi/Desktop
 cd
-cp -R penguinrocks /home/pi/Games/coh 
+sudo cp -R /home/pi/penguinrocks /home/pi/Games/coh 
 sudo chown pi:pi /home/pi/Games/coh
 ```
 Let’s run it. Profile 1 is the 32 bit client. You can click on the new updatecoh icon on the desktop.
