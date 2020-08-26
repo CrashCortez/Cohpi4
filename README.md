@@ -27,7 +27,8 @@ First on the pi you'll need to set some stuff up use commander pi to oc your pi 
 
 6 Volt adj. (over_voltage)
 
-Click all three set checks and apply and reboot.
+Click all three set checks and apply and reboot. 
+After the reboot open up wine configuration and let it download the needed files, mono and gecko I believe, just install everything it asks. 
 
 ## Automated installer 
 
