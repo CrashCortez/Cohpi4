@@ -3,7 +3,7 @@ The Internets said "COH will never play on the pi4!"
 
 Crash said "Hold my beer!"
 
-[Coh test video](https://youtu.be/G2BuxxW0Z2o)
+[Coh install video]()
 ---
 First I want to talk about if this is a good way to play COH, the answer is No not really. You will be plauged with DC's and long loading times, and forget about being in AP. This is more of a proof of concept.
 
