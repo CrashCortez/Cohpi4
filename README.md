@@ -15,7 +15,7 @@ Instructions to install City of Heroes on the pi4 with [Twister Os](https://twis
 
 Note penguinrocks will do it for you. 
 
-## Automated installer WIP 
+## Image and settings
 
 Download [Twister Os](https://twisteros.com/)'s current release, and set up you sd card.
 
@@ -28,8 +28,10 @@ First on the pi you'll need to set some stuff up use commander pi to oc your pi 
 6 Volt adj. (over_voltage)
 
 Click all three set checks and apply and reboot. 
+
 After the reboot open up wine configuration and let it download the needed files, mono and gecko I believe, just install everything it asks. 
 
+You can also twist the theme on this image I like the XP one for nostalgia.
 ## Automated installer 
 
 Copy and paste he following into your terminal and it will autoset everything up for you should take 25-35 minutes depending on your internet speeds.
