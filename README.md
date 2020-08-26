@@ -17,7 +17,7 @@ Note penguinrocks will do it for you.
 
 ## Image and settings
 
-Download [Twister Os](https://twisteros.com/)'s current release, and set up you sd card.
+Download [Twister Os](https://twisteros.com/)'s current release, and set up your sd card.
 
 First on the pi you'll need to set some stuff up use commander pi to oc your pi to the recommend setting of
 
@@ -34,7 +34,7 @@ After the reboot open up wine configuration and let it download the needed files
 You can also twist the theme on this image I like the XP one for nostalgia.
 ## Automated installer 
 
-Copy and paste he following into your terminal and it will autoset everything up for you should take 25-35 minutes depending on your internet speeds.
+Copy and paste the following into your terminal and it will autoset everything up for you should take 25-35 minutes depending on your internet speeds.
 ```
 wget https://raw.githubusercontent.com/CrashCortez/Cohpi4/master/install.sh && sudo chmod a+x install.sh && ./install.sh
 ```
@@ -63,7 +63,7 @@ sudo apt-get install -y libdigest-perl-md5-perl libxml-simple-perl libgetopt-lon
 ```
 Here is WarpShots [Reddit post](https://www.google.com/amp/s/amp.reddit.com/r/Cityofheroes/comments/bip4e2/new_linux_commandline_launcher_penguin_on_the/) I forked the working GitHub since v0.9.1 worked, and adjusted it for the box86/wine on the Twister OS.
 --
-We will use my fork since itts been adjusted for Twister OS.
+We will use my fork since it has been adjusted for Twister OS.
 ```
 git clone https://github.com/CrashCortez/penguinrocks
 ```
