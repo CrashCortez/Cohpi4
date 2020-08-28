@@ -56,14 +56,14 @@ Perl dependancies needed for penguinrocks
 sudo apt-get install -y perl curl wget
 sudo apt-get install -y libdigest-perl-md5-perl libxml-simple-perl libgetopt-long-descriptive-perl
 ```
-Here is WarpShots [Reddit post](https://www.google.com/amp/s/amp.reddit.com/r/Cityofheroes/comments/bip4e2/new_linux_commandline_launcher_penguin_on_the/) I forked the working GitHub since v0.9.1 worked, and adjusted it for the box86/wine on the Twister OS.
---
 We will use my fork since it has been adjusted for Twister OS.
+--
+Here is WarpShots [Reddit post](https://www.google.com/amp/s/amp.reddit.com/r/Cityofheroes/comments/bip4e2/new_linux_commandline_launcher_penguin_on_the/) I forked the working GitHub since v0.9.1 worked, and adjusted it for the box86/wine on the Twister OS.
 ```
 git clone https://github.com/CrashCortez/penguinrocks
 ```
 
-Now Let’s move on, let’s give ourselves premmisions and move some stuff around to the games folder and Desktop.
+Now let’s give ourselves premmisions and move some stuff around to the games folder and Desktop.
 --
 ```
 cd
