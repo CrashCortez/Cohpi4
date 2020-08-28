@@ -84,6 +84,7 @@ cd
 sudo cp -R /home/pi/penguinrocks /home/pi/Games/coh 
 sudo chown pi:pi /home/pi/Games/coh
 ```
+
 Let’s run it. Profile 1 is the 32 bit client. You can click on the new updatecoh icon on the desktop.
 --
 ```
@@ -97,6 +98,14 @@ cd /home/pi/Games/coh/hc-bin32
 cp cityofheroes.exe hc-bin32cityofheroes.exe
 cp hc-bin32cityofheroes.exe /home/pi/Games/coh
 cd
+```
+
+Lets remove the files and folders no longer needed.
+--
+```
+cd
+sudo rm -R /home/pi/penguinrocks
+sudo rm /home/pi/install.sh
 ```
 
 Now run In terminal the following or click the City of Heros icon on the desktop
