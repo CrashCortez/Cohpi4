@@ -1,4 +1,5 @@
-# Cohpi4
+# Instructions to install City of Heroes on the pi4
+
 No one said "COH will never play on the pi4!"
 
 Crash said "Hold my beer!"
@@ -9,23 +10,17 @@ ___
 ---
 First I want to talk about if this is a good way to play COH, the answer is No not really. You will be plagued with DC's and long loading times, and forget about being in AP. This is more of a proof of concept. Suggested settings: Minimal with particle count very low, to load in and then adjust settings. windowed at 720p works well with the performance setting and quality crashes and has graphics errors. This project might work great with a home server, I think I know what I'm trying next.
 
+## Let's get started
 
+Download [Twister Os](https://twisteros.com/)'s current release, and set up your sd card. Here is a great [video](https://www.youtube.com/watch?v=cOYTE0TjQL8) to set up sd cards if you are unsure how.
 
-Instructions to install City of Heroes on the pi4 with [Twister Os](https://twisteros.com/)'s current release.
+First on the pi you'll need to set some stuff up:
 
-[Homecoming PC install instructions](https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733)
+Use commander pi to overclock your pi to the recommend setting of
 
-Note: Penguinrocks will do it for you. 
+2000 CPU (arm_freq)
 
-## Image and settings
-
-Download [Twister Os](https://twisteros.com/)'s current release, and set up your sd card.
-
-First on the pi you'll need to set some stuff up use commander pi to oc your pi to the recommend setting of
-
-2000 CPU (arm_frew)
-
-600 GPU (gpu_freq0
+600 GPU (gpu_freq)
 
 6 Volt adj. (over_voltage)
 
@@ -33,7 +28,8 @@ Click all three set checks and apply and reboot.
 
 After the reboot open up wine configuration and let it download the needed files, mono and gecko I believe, just install everything it asks. 
 
-You can also twist the theme on this image I like the XP one for nostalgia.
+You can also twist the theme on this image, I like the XP one for nostalgia.
+
 ## Automated installer 
 
 Copy and paste the following into your terminal and it will autoset everything up for you should take 25-35 minutes depending on your internet speeds.
@@ -41,6 +37,7 @@ Copy and paste the following into your terminal and it will autoset everything u
 wget https://raw.githubusercontent.com/CrashCortez/Cohpi4/master/install.sh && sudo chmod a+x install.sh && ./install.sh
 ```
 After it is done downloading and setting it up you will can now log in. 
+
 ## You're Done, Go Hunt skulls!
 
 
