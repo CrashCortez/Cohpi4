@@ -3,7 +3,7 @@ The Internets said "COH will never play on the pi4!"
 
 Crash said "Hold my beer!"
 
---
+___
 
 [Coh install video](https://youtu.be/b_25KE0Ov-4)
 ---
