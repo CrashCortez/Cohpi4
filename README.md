@@ -5,7 +5,7 @@ Crash said "Hold my beer!"
 
 [Coh install video]()
 ---
-First I want to talk about if this is a good way to play COH, the answer is No not really. You will be plauged with DC's and long loading times, and forget about being in AP. This is more of a proof of concept.
+First I want to talk about if this is a good way to play COH, the answer is No not really. You will be plagued with DC's and long loading times, and forget about being in AP. This is more of a proof of concept.
 
 
 
