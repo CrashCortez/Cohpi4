@@ -1,10 +1,10 @@
-# Instructions to install City of Heroes on the pi4
+# Instructions to install CoHpi4
 
 ___
 
 [Coh install video](https://youtu.be/b_25KE0Ov-4)
 ---
-First I want to talk about if this is a good way to play COH, the answer is No not really. You will be plagued with DC's and long loading times, and forget about being in AP. This is more of a proof of concept. Suggested settings: Minimal with particle count very low, to load in and then adjust settings. windowed at 720p works well with the performance setting and quality crashes and has graphics errors. This project might work great with a home server, I think I know what I'm trying next.
+First I want to talk about if this is a good way to play, the answer is No not really. You will be plagued with DC's and long loading times, and forget about being in AP. This is more of a proof of concept. Suggested settings: Minimal with particle count very low, to load in and then adjust settings. windowed at 720p works well with the performance setting and quality crashes and has graphics errors. This project might work great with a home server, I think I know what I'm trying next.
 
 ## Let's get started
 
