@@ -15,7 +15,7 @@ Instructions to install City of Heroes on the pi4 with [Twister Os](https://twis
 
 [Homecoming PC install instructions](https://score.savecoh.com/index.php/topic,372.msg1733.html#msg1733)
 
-Note penguinrocks will do it for you. 
+Note: Penguinrocks will do it for you. 
 
 ## Image and settings
 
