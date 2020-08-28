@@ -1,9 +1,5 @@
 # Instructions to install City of Heroes on the pi4
 
-No one said "COH will never play on the pi4!"
-
-Crash said "Hold my beer!"
-
 ___
 
 [Coh install video](https://youtu.be/b_25KE0Ov-4)
