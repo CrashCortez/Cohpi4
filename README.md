@@ -2,7 +2,7 @@
 
 ___
 
-[Coh install video](https://youtu.be/b_25KE0Ov-4)
+## [Video tutorial](https://youtu.be/b_25KE0Ov-4)
 ---
 First I want to talk about if this is a good way to play, the answer is No not really. You will be plagued with DC's and long loading times, and forget about being in AP. This is more of a proof of concept. Suggested settings: Minimal with particle count very low, to load in and then adjust settings. windowed at 720p works well with the performance setting and quality crashes and has graphics errors. This project might work great with a home server, I think I know what I'm trying next.
 
@@ -10,7 +10,7 @@ First I want to talk about if this is a good way to play, the answer is No not r
 
 Download [Twister Os](https://twisteros.com/)'s current release, and set up your sd card. Here is a great [video](https://www.youtube.com/watch?v=cOYTE0TjQL8) to set up sd cards if you are unsure how.
 
-First on the pi you'll need to set some stuff up:
+On the pi you'll need to setup two things:
 
 Use commander pi to overclock your pi to the recommend setting of
 
@@ -22,9 +22,9 @@ Use commander pi to overclock your pi to the recommend setting of
 
 Click all three set checks and apply and reboot. 
 
-After the reboot open up wine configuration and let it download the needed files, mono and gecko I believe, just install everything it asks. 
+After the reboot open up Wine Configuration and let it download the needed files, mono and gecko I believe, just install everything it asks. 
 
-You can also twist the theme on this image, I like the XP one for nostalgia.
+Note: You can also twist the theme on this image, I like the XP one for nostalgia and the search bar.
 
 ## Automated installer 
 
