@@ -1,5 +1,5 @@
 # Cohpi4
-The Internets said "COH will never play on the pi4!"
+No one said "COH will never play on the pi4!"
 
 Crash said "Hold my beer!"
 
