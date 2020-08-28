@@ -24,5 +24,8 @@ cd /home/pi/Games/coh/hc-bin32
 cp cityofheroes.exe hc-bin32cityofheroes.exe
 cp hc-bin32cityofheroes.exe /home/pi/Games/coh
 cd
+sudo rm -R /home/pi/penguinrocks
+sudo rm /home/pi/install.sh
+cd
 cd /home/pi/Games/coh
 LD_LIBRARY_PATH=/home/pi/mesa/lib/arm-linux-gnueabihf ./penguinrocks.pl --profile 1 --launchonly --silentlaunch
